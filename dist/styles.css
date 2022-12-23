@@ -58,11 +58,15 @@ html, body {
 }
 .today{
     font-weight: bold;
-    font-size:22px;
+    font-size:32px;
 }
 #date{
     font-size:16px;
 }
-.example-page{
-    text-align: center;
+.line{
+    width: 100%; border-bottom: 1px solid black;
+}
+#new-task{
+    position: relative;
+    padding:30px 20px;
 }
