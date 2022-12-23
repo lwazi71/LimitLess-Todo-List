@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+    height:100%;
+
+  }
+
+html{
+    height: 100%;
+}
+  
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dc4c3e;
+    height: 44px;
+    padding: 8px;
+}
+.logo
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+}
+.right-items{
+    display: flex;
+    color: white;
+    gap:12px;
+}
+
+.ionicon, svg{
+    display: block;
+    height: 100%;
+    width:100%;
+}
